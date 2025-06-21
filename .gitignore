@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+*.env
+*.log
+
+# VS Code
+.vscode/
+
+# Python virtual environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.env/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+myenv/
+
+# Cache files
+cache/
+local/cache/
+twilio_server/cache/
+*.mp3
+
+# Static cached responses
+static/cached_responses/
+twilio_server/static/cached_responses/
+local/static/cached_responses/
+
+# Log files (already covered by *.log but being explicit)
+logs/
+local/logs/
+twilio_server/logs/
+
+# Service files and keys (personal deployment configs)
+*.service
+*.pem
+*.key
